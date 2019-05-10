@@ -1,0 +1,55 @@
+
+Usando el lenguaje de programación Java, realizar el reporte correspondiente en función de las características planteadas.
+
+En una empresa de ventas de electrodomésticos se paga a los empleados en función de las siguientes características:
+
+- Existen 4 tipos de empleados (Sueldo Mensual):
+	Tipo 1:	 sueldo mensual de 340
+	Tipo 2:	 sueldo mensual de 460
+	Tipo 3:	 sueldo mensual de 580
+	Tipo 4:	 sueldo mensual de 600
+
+- Se realiza incentivos adicionales al sueldo en función del tipo de empleado (Incentivo-1):
+	Tipo 1:	 se adiciona el 5% del sueldo mensual
+	Tipo 2:	 se adiciona el 10% del sueldo mensual
+	Tipo 3 y 4:	se adiciona el 15% del sueldo mensual
+
+- Se genera un bono adicional de $10 dólares por cada hijo que tenga el empleado (Hijos) 
+
+
+- Existen descuentos fijos para el seguro social, de acuerdo a lo siguiente (Descuento SS):
+	Empleado cuya edad sea menor o igual a 20 años, se descuenta $15 del total del sueldo más los incentivos y bonos
+	Empleado cuya edad sea mayor a 20 y menor o igual a 30 años, se descuenta $25 del total del sueldo más los incentivos y bonos
+	Empleado cuya edad sea mayor a 31 se descuenta $35 del total del sueldo más los incentivos y bonos
+
+
+- El valor del sueldo a depositar es considerando el sueldo mensual, incentivos, bonos y descuentos (Total a Pagar).
+
+- La generación de empleados será dinámica, el usuario debe decidir en cada iteración, si desea seguir ingresando valores.
+
+Reporte de Rol de Pagos por Empleado
+
+
+Nombres                       Sueldo Mensual    Incentivo-1   Hijos   Descuento SS    Total a Pagar
+Alex Aguinaga(20años)       
+Total                         340               17            5       X               x                                            
+
+María Analuisa(25años)      
+Total                         460               46            2       x               x
+
+Marco Bolaños(33años)       
+Totales                       600               90            4       x               x
+
+
+
+Reporte de Rol de Pagos de la Empresa (Totales) 
+
+Descuento de Seguro Social = ? 
+Total Incentivo-1 = ?
+Total Pago por Hijos = ? 
+Total Pago de la Empresa = ?
+
+
+
+
+
